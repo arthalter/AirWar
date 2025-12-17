@@ -11,6 +11,6 @@ public class AirWar {
         frame.setLocationRelativeTo(null);//居中
         frame.setAlwaysOnTop(true);
         frame.setVisible(true);//可见
-        gamePanel.start();
+        gamePanel.start();//12121
     }
 }
