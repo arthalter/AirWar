@@ -5,7 +5,7 @@ abstract class Flyings {
     protected int w,h;
     protected Image img;
     public abstract void move();
-t
+
     public void Paint(Graphics g) {
         g.drawImage(img,x,y,null);
     }

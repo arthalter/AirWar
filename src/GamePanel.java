@@ -17,20 +17,24 @@ public class GamePanel extends JPanel {
     }
     void start()
     {
-        new Thread(()->{
-            int time=0;
-            while(true) {
-                time++;
+            Player player=new Player();
+            //绘制player
 
 
-
-                repaint();
-                try {
-                    Thread.sleep(10);
-                }
-                catch ( InterruptedException e){}
-            }
-        }).start();
+//        new Thread(()->{
+//            int time=0;
+//            while(true) {
+//                time++;
+//
+//
+//
+//                repaint();
+//                try {
+//                    Thread.sleep(10);
+//                }
+//                catch ( InterruptedException e){}
+//            }
+//        }).start();
     }
     @Override
     public void paint(Graphics g) {
