@@ -7,7 +7,7 @@ abstract class Flyings {
     public abstract void move();
 
     public void Paint(Graphics g) {
-        g.drawImage(img,x,y,null);
+        g.drawImage(img,x,y,w,h,null);
     }
 
     public boolean hit(Flyings f) {

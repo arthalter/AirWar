@@ -2,9 +2,9 @@ import javax.swing.*;
 
 public class Player extends Flyings {
     Player () {
-        img = new ImageIcon("images/plane.png").getImage();
-        w = img.getWidth(null);
-        h = img.getHeight(null);
+        img = new ImageIcon(getClass().getResource("/images/plane.png")).getImage();
+        w=50;
+        h=50;
     }
     @Override
     public void move() {
